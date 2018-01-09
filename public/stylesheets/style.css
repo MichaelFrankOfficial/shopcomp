@@ -1,0 +1,255 @@
+@media (min-width: 1200px){
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin:0; 
+  font-size:18px; 
+  line-height:28px; 
+  color:#414042; 
+  width: 100%;
+}
+/*NAVIGATION STYLING*/
+nav {
+  width: 100%;
+  border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar a{
+ font-size: 1.2em !important;
+ }
+ .nav-item a:hover{
+   border-top: solid;
+   border-width: 2px;
+   border-color: rgb(81, 161, 192);
+ }
+ .nav-item a{
+   border-top: transparent;
+   border-width: 2px;
+   border-bottom: transparent;
+ }
+.nav li{
+ padding-right:5px;
+}
+
+.body-container-wrapper{
+  height: 100%;
+}
+/*----------BODY STYLING----------*/
+.home-banner-IMG{
+    width: 100%;
+    height: 35em;
+}
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.thumb{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.home-container{
+    padding: 0 !important;
+
+}
+.thumbnail {
+    position: relative;
+    width: 100% !important;
+
+}
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    padding-left: 8em;
+}
+.caption-title{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px !important;
+}
+.icon-row-padded {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid #DDD;
+}
+.home-insurance-icon{
+    width: 128px;
+    height: 50px;
+}
+.h1-insurance-covered-states{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px !important;
+    color: rgb(83, 91, 93) !important;
+    text-align: center;
+}
+.home-states-container{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.insurance-covered-states{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+/*State Subtitle Styling */
+.home-state-subtitle{
+    text-align: center;
+}
+.home-state-subtitle > a{
+    color: rgb(83, 91, 93);
+    text-decoration: none;
+}
+.home-state-subtitle > a:hover {
+    color: rgb(83, 91, 93);
+}
+.home-state-subtitle > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:rgb(81, 161, 192);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .home-state-subtitle > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+/*Workers Comp Business Types*/
+.business-types-container{
+    padding-top: 4em;
+    padding-bottom: 1em;
+    background-color: rgb(249, 249, 249) !important;
+}
+.workers-comp-businesses{
+    padding-top: 2em;
+}
+.home-card-block{
+    padding: 2em !important;
+}
+.home-card-title{
+    font-family: 'Raleway', sans-serif !important;
+}
+.home-card-text{
+
+}
+.read-more-btn{
+    text-align: center !important;
+}
+.h1-business-types{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px !important;
+    color: rgb(83, 91, 93) !important;
+    text-align: center;
+}
+.card-img-top{
+    width: 100%;
+    height: 20em !important;
+}
+/*FOOTER STYLING*/
+#shopcompFooter {
+    background-color: #525b5d;
+    color: white;
+    padding-top: 30px;
+}
+#shopcompFooter .footer-contact-info{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 2em;
+}
+#shopcompFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#shopcompFooter .row {
+    margin-bottom: 60px;
+}
+
+#shopcompFooter .navbar-brand {
+    margin-top: 35px;
+    height: 65px;
+    padding-right: 2em !important;
+}
+
+#shopcompFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#shopcompFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#shopcompFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#shopcompFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#shopcompFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#shopcompFooter a:hover,
+#shopcompFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#shopcompFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #shopcompFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#shopcompFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+}
