@@ -15,9 +15,12 @@ nav {
 }
 .navbar{
     padding: 0 !important;
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+    padding-left: 4em !important;
 }
 .navbar a{
- font-size: 1.2em !important;
+    font-size: 1.2em !important;
  }
  .nav-item a:hover{
    border-top: solid;
@@ -32,7 +35,6 @@ nav {
 .nav li{
  padding-right:5px;
 }
-
 .body-container-wrapper{
   height: 100%;
 }
@@ -74,7 +76,7 @@ nav {
     padding-right: 35px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(249, 249, 249);
+    background-color: whitesmoke !important;
     border: 1px solid #DDD;
 }
 .home-insurance-icon{
@@ -129,7 +131,7 @@ nav {
 .business-types-container{
     padding-top: 4em;
     padding-bottom: 1em;
-    background-color: rgb(249, 249, 249) !important;
+    background-color: whitesmoke !important;
 }
 .workers-comp-businesses{
     padding-top: 2em;
@@ -155,6 +157,251 @@ nav {
 .card-img-top{
     width: 100%;
     height: 20em !important;
+}
+/*BEFORE YOU BUY PAGE STYLING*/
+.before-you-buy-main-container{
+    padding: 0 !important;
+}
+.row-page-heading{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 4em;
+    width: 100%;
+    height: 4em;
+    background-color: rgb(32, 98, 182)
+}
+.h1-page-title{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px;
+    color: white
+}
+.before-you-buy-container-one{
+    padding-left: 12em !important;
+    padding-right: 12em !important;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+.before-you-buy-row-one{
+
+}
+.before-you-buy-row-one p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #414042;
+}
+.before-you-buy-row-one-links{
+    width: 100%;
+    padding-top: 2em;
+    padding-left: 7em;
+    padding-right: auto;
+}
+.before-you-buy-row-one-links li{
+    display: inline-block;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #525b5d;
+    padding-right: .5em;
+    padding-left: .5em;
+    font-family: 'Roboto Slab', serif;
+}
+.before-you-buy-row-one-links li:first-child{
+    padding-left: 0;
+}
+.before-you-buy-row-one-links li:last-child{
+    border-right: none;
+}
+.before-you-buy-container-two{
+    background-color: whitesmoke !important;
+}
+.before-you-buy-row-two{
+    padding-left: 12em !important;
+    padding-right: 12em !important;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+.before-you-buy-row-two-desc{
+    padding-top: 2em;
+}
+.before-you-buy-row-two-img{
+    padding-left: 5em;
+}
+.before-you-buy-row-two p{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: #414042;
+}
+.before-you-buy-container-three{
+
+}
+.before-you-buy-row-three{
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.before-you-buy-row-three-desc p{
+    font-family: 'Roboto Slab', serif;
+}
+.before-you-buy-row-three-desc ul{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+/*WHY CHOOSE SHOP COMP PAGE STYLING*/
+.why-shopcomp-main-container{
+    padding: 0 !important;
+}
+.why-shopcomp-images{
+    width: 35em !important;
+}
+.why-shopcomp-row-one{
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.why-shopcomp-row-one-desc p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042
+}
+.why-shopcomp-row-one-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #414042;
+}
+/*Container Two*/
+.why-shopcomp-container-two{
+    background-color: whitesmoke !important;
+}
+.why-shopcomp-row-two{
+    padding-left: 12em !important;
+    padding-right: 12em !important;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+.why-shopcomp-row-two-desc{
+    padding-top: 2em;
+    padding-right: 10em !important;
+}
+.why-shopcomp-row-two p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+}
+.why-shopcomp-row-two-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #414042;
+}
+/*Container Three*/
+.why-shopcomp-container-three{
+    
+}
+.why-shopcomp-row-three{
+    padding-left: 12em !important;
+    padding-right: 12em !important;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+.why-shopcomp-row-three-desc{
+    padding-top: 2em;
+    padding-left: 10em !important;
+}
+.why-shopcomp-row-three p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+}
+.why-shopcomp-row-three-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #414042;
+}
+/*Container Four*/
+.why-shopcomp-container-four{
+    background-color: whitesmoke !important;
+}
+.why-shopcomp-row-four{
+    padding-left: 12em !important;
+    padding-right: 12em !important;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+.why-shopcomp-row-four-desc{
+    padding-top: 2em;
+    padding-right: 10em !important;
+}
+.why-shopcomp-row-four p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+}
+.why-shopcomp-row-four-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #414042;
+}
+/*CLAIMS PAGE STYLING*/
+.claims-main-container{
+    padding: 0 !important;
+}
+.claims-row-one{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.claims-row-one-desc p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+}
+.claims-row-one-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #414042;
+}
+/*ROW TWO*/
+.claims-row-two{
+    padding-top: 2em !important;
+}
+.claims-row-two-desc{
+    padding-right: 10em !important;
+    padding-left: 8em !important;
+}
+.claims-row-two-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 1em;
+    color: #414042;
+}
+.claims-row-two-desc p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+}
+.claims-row-two-desc ul{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+/*ROW THREE*/
+.claims-row-three{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.claims-row-three-desc p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+}
+.claims-row-three-desc h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #414042;
+}
+.claims-row-three-desc ul{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
 }
 /*FOOTER STYLING*/
 #shopcompFooter {
