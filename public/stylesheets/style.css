@@ -1,3 +1,237 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin:0; 
+    font-size:18px; 
+    line-height:28px; 
+    color:#414042; 
+    width: 100%;
+  }
+  /*NAVIGATION STYLING*/
+  nav {
+    width: 100%;
+    border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+  }
+  .navbar{
+      padding: 0 !important;
+      padding-top: 1.5em !important;
+      padding-bottom: 1.5em !important;
+      padding-right: .4em !important;
+  }
+  .navbar a{
+      font-size: 1.2em !important;
+   }
+   .nav-item a:hover{
+     border-top: solid;
+     border-width: 2px;
+     border-color: rgb(81, 161, 192);
+   }
+   .nav-item a{
+     border-top: transparent;
+     border-width: 2px;
+     border-bottom: transparent;
+   }
+  .nav li{
+   padding-right:5px;
+  }
+  .body-container-wrapper{
+    height: 100%;
+  }
+  /*----------BODY STYLING----------*/
+/*HEADER IMAGE*/
+.home-banner-IMG{
+    width: 100%;
+    height: 35em;
+}
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.thumb{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.home-container{
+    padding: 0 !important;
+
+}
+.thumbnail {
+    position: relative;
+    width: 100% !important;
+
+}
+/*PAGE TITLE STYLING*/
+.h1-page-title{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 25px;
+    color: white;
+}
+.row-page-heading{
+    padding-top: 1.5em !important;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(32, 98, 182)
+}
+/*Header Image Cover Text*/
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    padding-left: 1em;
+}
+.caption-title{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px !important;
+}
+.carousel-caption{
+    background: rgba(0,0,0,0.8);
+}
+.carousel-caption-h3{
+    font-family: 'Raleway', sans-serif !important;
+    color: #9ea6a8 !important;
+    font-weight: bold !important;
+}
+.carousel-caption-p{
+    font-family: 'Roboto Slab', serif !important;
+    color:#fff !important;
+}
+/*INSURANCE COMPANY ICON LIST*/
+.icon-row-padded {
+
+}
+.home-insurance-icon{
+
+}
+/*Workers Comp Business Types*/
+.business-types-container{
+    padding-top: 4em;
+    padding-bottom: 1em;
+    background-color: whitesmoke !important;
+}
+.workers-comp-businesses{
+    padding-top: 2em;
+}
+.card{
+    margin-bottom: 1.5em;
+}
+.home-card-block{
+    padding: 2em !important;
+}
+.home-card-title{
+    font-family: 'Raleway', sans-serif !important;
+}
+.home-card-text{
+
+}
+.read-more-btn{
+    text-align: center !important;
+}
+.h1-business-types{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px !important;
+    color: rgb(83, 91, 93) !important;
+    text-align: center;
+}
+.card-img-top{
+    width: 100%;
+    height: 15em !important;
+}
+/*BEFORE YOU BUY PAGE*/
+.before-you-buy-main-container{
+    padding: 0 !important;
+}
+.before-you-buy-container-two{
+    background-color: whitesmoke;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*WHY SHOPCOMP PAGE*/
+.why-shopcomp-main-container{
+    padding: 0 !important;
+}
+.why-shopcomp-images{
+    width: 15em !important;
+}
+/*CLAIMS PAGE*/
+.claims-main-container{
+    padding: 0 !important;
+}
+.claims-container-two{
+    background-color: whitesmoke;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*NORTH CAROLINA PAGE*/
+.north-carolina-main-container{
+    padding: 0 !important;
+}
+.page-title-extend{
+    padding-bottom: 5em !important;
+}
+/*FOOTER STYLING*/
+#shopcompFooter {
+    background-color: #525b5d;
+    color: white;
+    padding-top: 30px;
+}
+#shopcompFooter .footer-contact-info{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 2em;
+}
+#shopcompFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#shopcompFooter .row {
+    margin-bottom: 60px;
+}
+
+#shopcompFooter .navbar-brand {
+    margin-top: 35px;
+    height: 65px;
+    padding-right: 2em !important;
+}
+
+#shopcompFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#shopcompFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#shopcompFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#shopcompFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#shopcompFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#shopcompFooter a:hover,
+#shopcompFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
 @media (min-width: 1200px){
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -112,6 +346,7 @@ nav {
     width: 128px;
     height: 50px;
 }
+/*States With Pictures*/
 .h1-insurance-covered-states{
     font-family: 'Raleway', sans-serif !important;
     font-size: 42px !important;
@@ -315,6 +550,9 @@ nav {
 /*Container Three*/
 .why-shopcomp-container-three{
     
+}
+.why-shopcom-img-three{
+    padding-top: 2em;
 }
 .why-shopcomp-row-three{
     padding-left: 12em !important;
@@ -552,28 +790,11 @@ padding-right: 15em !important;
 }
 
 
-
-#shopcompFooter .btn {
-    color: white;
-    background-color: #d84b6b;
-    border-radius: 20px;
-    border: none;
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    line-height: 25px;
-}
-
 @media screen and (max-width: 767px) {
     #shopcompFooter {
         text-align: center;
     }
 }
-
-
-/* CSS used for positioning the footers at the bottom of the page. */
-/* You can remove this. */
 
 .content{
    flex: 1 0 auto;
