@@ -39,6 +39,7 @@ nav {
   height: 100%;
 }
 /*----------BODY STYLING----------*/
+/*HEADER IMAGE*/
 .home-banner-IMG{
     width: 100%;
     height: 35em;
@@ -60,6 +61,21 @@ nav {
     width: 100% !important;
 
 }
+/*PAGE TITLE STYLING*/
+.h1-page-title{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 42px;
+    color: white;
+}
+.row-page-heading{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+    padding-left: 8em;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(32, 98, 182)
+}
+/*Header Image Cover Text*/
 .caption {
     position: absolute;
     top: 45%;
@@ -71,6 +87,19 @@ nav {
     font-family: 'Raleway', sans-serif !important;
     font-size: 42px !important;
 }
+.carousel-caption{
+    background: rgba(0,0,0,0.8);
+}
+.carousel-caption-h3{
+    font-family: 'Raleway', sans-serif !important;
+    color: #9ea6a8 !important;
+    font-weight: bold !important;
+}
+.carousel-caption-p{
+    font-family: 'Roboto Slab', serif !important;
+    color:#fff !important;
+}
+/*INSURANCE COMPANY ICON LIST*/
 .icon-row-padded {
     padding-left: 35px;
     padding-right: 35px;
@@ -107,6 +136,7 @@ nav {
 }
 .home-state-subtitle > a:hover {
     color: rgb(83, 91, 93);
+    text-decoration: none;
 }
 .home-state-subtitle > a:before {
     content: "";
@@ -161,19 +191,6 @@ nav {
 /*BEFORE YOU BUY PAGE STYLING*/
 .before-you-buy-main-container{
     padding: 0 !important;
-}
-.row-page-heading{
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: 4em;
-    width: 100%;
-    height: 4em;
-    background-color: rgb(32, 98, 182)
-}
-.h1-page-title{
-    font-family: 'Raleway', sans-serif !important;
-    font-size: 42px;
-    color: white
 }
 .before-you-buy-container-one{
     padding-left: 12em !important;
@@ -402,6 +419,75 @@ nav {
     padding-top: 2em;
     padding-bottom: 2em;
     font-family: 'Roboto Slab', serif;
+}
+/*STATES WE COVER STYLING*/
+.states-what-you-need-to-know{
+width: 30% !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+padding-right: 15em !important;
+padding-top: 3em !important;
+}
+.work-comp-side-info-box{
+    border: solid;
+    border-color: #333333;
+    border-width: 3px;
+    padding: 1em !important;
+    background-color: rgb(249, 249, 249);
+}
+.states-work-comp-h3{
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    font-size: 28px;
+    padding-bottom: 1em;
+    padding-top: .5em;
+}
+.states-work-comp-p{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+    font-size: 16px;
+}
+.states-work-comp-ul li{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #535b5d;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    list-style-image: url('/images/check-mark.png');
+}
+.state-info-disclaimer{
+    font-family: 'Roboto Slab', serif;
+    color: #414042;
+    font-size: 12px;
+}
+/*EMPLOYEE or INDEPENDENT STYLING*/
+.ten-ways-main-container{
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 3em !important;
+}
+.ten-ways-row{
+padding-top: 3em !important;
+}
+.ten-ways-column{
+padding-left: 15em !important;
+padding-right: 15em !important;
+}
+
+/*NORTH CAROLINA WORK COMP PAGE*/
+.north-carolina-main-container{
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 3em !important;
+}
+.north-carolina-info-container{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 15em !important;
+    padding-right: 2em !important;
+    padding-top: 3em !important;
 }
 /*FOOTER STYLING*/
 #shopcompFooter {

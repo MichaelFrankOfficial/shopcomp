@@ -10,6 +10,11 @@ var users = require('./routes/users');
 var before_you_buy = require('./routes/before-you-buy');
 var why_shop_comp = require('./routes/why-shop-comp');
 var claims = require('./routes/claims');
+var employee_or_independent_contractor = require('./routes/employee-or-independent-contractor');
+var north_carolina = require('./routes/north-carolina');
+var south_carolina = require('./routes/south-carolina');
+var georgia = require('./routes/georgia');
+var florida = require('./routes/florida');
 
 var app = express();
 
@@ -30,6 +35,11 @@ app.use('/users', users);
 app.use('/claims', claims);
 app.use('/before-you-buy', before_you_buy);
 app.use('/why-shop-comp', why_shop_comp);
+app.use('/employee-or-independent-contractor', employee_or_independent_contractor);
+app.use('/north-carolina', north_carolina);
+app.use('/south-carolina', south_carolina);
+app.use('/georgia', georgia);
+app.use('/florida', florida);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
