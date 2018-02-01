@@ -50,6 +50,7 @@ body {
 .thumb{
     padding-left: 0 !important;
     padding-right: 0 !important;
+    height: auto;
 }
 .home-container{
     padding: 0 !important;
@@ -75,13 +76,6 @@ body {
     background-color: rgb(32, 98, 182)
 }
 /*Header Image Cover Text*/
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
-    padding-left: 1em;
-}
 .caption-title{
     font-family: 'Raleway', sans-serif !important;
     font-size: 42px !important;
@@ -99,11 +93,12 @@ body {
     color:#fff !important;
 }
 /*INSURANCE COMPANY ICON LIST*/
-.icon-row-padded {
-
+#carriersnavbutton{
+    margin: 0 auto;
 }
-.home-insurance-icon{
-
+.img-center-block{
+    width: 20%;
+    display: block;
 }
 /*Workers Comp Business Types*/
 .business-types-container{
@@ -232,6 +227,11 @@ body {
     text-decoration: none;
     color: white;
 }
+@media (min-width: 768px){
+    .img-center-block{
+        display: inline-block;
+        width: 80%;
+    }
 @media (min-width: 1200px){
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -342,6 +342,15 @@ nav {
     background-color: whitesmoke !important;
     border: 1px solid #DDD;
 }
+.icon-container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.img-center-block{
+    display: inline-block;
+    width: 60%;
+}
+
 .home-insurance-icon{
     width: 128px;
     height: 50px;
