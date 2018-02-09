@@ -15,6 +15,8 @@ var north_carolina = require('./routes/north-carolina');
 var south_carolina = require('./routes/south-carolina');
 var georgia = require('./routes/georgia');
 var florida = require('./routes/florida');
+var constructionandtrade = require('./routes/construction-and-trade-contractors');
+var accommodationandfood = require('./routes/accommodation-and-food-services');
 
 var app = express();
 
@@ -40,6 +42,8 @@ app.use('/north-carolina', north_carolina);
 app.use('/south-carolina', south_carolina);
 app.use('/georgia', georgia);
 app.use('/florida', florida);
+app.use('/construction-and-trade-contractors', constructionandtrade);
+app.use('/accommodation-and-food-services', accommodationandfood);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
